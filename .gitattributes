@@ -1,30 +1,22 @@
-*           text=auto
-
-# These files are text and should be normalized (convert crlf to lf)
-*.rb        text
-*.test      text
-*.c         text
-*.cpp       text
-*.h         text
-*.txt       text
-*.yml       text
-*.s79       text
-*.bat       text
-*.xcl       text
-*.inc       text
-*.info      text
-*.md        text
-makefile    text
-rakefile    text
-
-
-#These files are binary and should not be normalized
-*.doc       binary
-*.odt       binary
-*.pdf       binary
-*.ewd       binary
-*.eww       binary
-*.dni       binary
-*.wsdt      binary
-*.dbgdt     binary
-*.mac       binary
+*.pdf   binary
+*.asm   text eol=lf
+*.bmk   text eol=lf
+*.c     text eol=lf
+*.cpp   text eol=lf
+*.def   text eol=lf
+*.h     text eol=lf
+*.in    text eol=lf
+*.lst   text eol=lf
+*.md    text eol=lf
+*.opt   text eol=lf
+*.pl    text eol=lf
+*.py    text eol=lf
+*.pm    text eol=lf
+*.rl    text eol=lf
+*.t     text eol=lf
+*.sh    text eol=lf
+*.tt    text eol=lf
+*.txt   text eol=lf
+*.yaml  text eol=lf
+Makefile text eol=lf
+README* text eol=lf
